@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+h1{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+}
+
 .search{
     display: flex;
     justify-content: center;
-    flex-direction: column;
     padding: 20px;
     align-items: center;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    
 }
 
 input{
@@ -21,4 +26,10 @@ input{
 }
 input:focus{
     width: 200px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
 }
