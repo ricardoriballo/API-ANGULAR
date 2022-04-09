@@ -1,0 +1,6 @@
+<div>
+    <div *ngFor="let result of results" class="card">
+        <img [src]="result.images.original.url" [alt]="result.images.original"/>
+        <p>{{result.title}}</p>   
+    </div>
+</div>
